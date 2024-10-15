@@ -236,7 +236,7 @@
     "regexQuantifier": "#b969cb",
 
     // python
-    "module:python": { "fontStyle": "bold", "foreground": "#247dd0" },
+    "module:python": { "fontStyle": "", "foreground": "#3d67ca" },
 
     // Toml
     "tomlArrayKey": { "fontStyle": "", "foreground": "#202022" }
@@ -271,51 +271,39 @@
       }
     },
     {
-      "name": "Keywords",
-      "scope": ["keyword", "storage", "entity.other.attribute-name"],
-      "settings": {
-        "foreground": "#3d67ca"
-      }
-    },
-    {
-      "name": "Keywords",
+      "name": "Keywords Control",
       "scope": [
-        "meta.property-name",
-        "support.type.property-name",
-        "support.type"
+        "keyword.control.conditional",
+        "keyword.control.flow",
+        "keyword.control.exception"
       ],
       "settings": {
-        "fontStyle": "",
-        "foreground": "#3d67ca"
+        "foreground": "#0598c1"
       }
     },
     {
-      "name": "Language Constants",
-      "scope": ["constant.language", "support.constant", "variable.language"],
+      "name": "Keywords this",
+      "scope": ["variable.language.this"],
       "settings": {
-        "foreground": "#3d67ca"
+        "foreground": "#6e6e74"
       }
     },
     {
-      "name": "Variables",
-      "scope": ["variable", "support.variable"],
-      "settings": {}
-    },
-    {
-      "name": "Functions",
-      "scope": ["entity.name.function", "support.function"],
-      "settings": {}
-    },
-    {
-      "name": "Classes",
+      "name": "Keywords",
       "scope": [
+        "storage",
+        "keyword.type",
+        "keyword.operator.expression",
+        "constant.language",
+        "variable.language",
+        "entity.other.attribute-name",
         "entity.name.type",
         "entity.name.tag",
         "entity.name.section",
         "entity.other.inherited-class",
         "support.class",
-        "keyword.type",
-        "storage.type.var",
+        "support.constant",
+        "support.type",
         "meta.selector",
         "meta.selector entity",
         "meta.selector entity punctuation",
@@ -325,11 +313,11 @@
         "meta.tag.sgml punctuation.definition.tag.html",
         "meta.diff.range",
         "meta.diff.index",
-        "meta.separator"
+        "meta.separator",
+        "meta.property-name"
       ],
       "settings": {
-        "fontStyle": "bold",
-        "foreground": "#247dd0"
+        "foreground": "#3d67ca"
       }
     },
     {
@@ -343,15 +331,15 @@
       "name": "Strings",
       "scope": "string",
       "settings": {
-        "fontStyle": "bold",
-        "foreground": "#1e900d"
+        "fontStyle": "",
+        "foreground": "#1a8709"
       }
     },
     {
       "name": "meta template expression",
       "scope": ["meta.interpolation.cs", "meta.fstring.python"],
       "settings": {
-        "fontStyle": "bold",
+        "fontStyle": "",
         "foreground": "#b969cb"
       }
     },
@@ -494,7 +482,7 @@
       "name": "CSS: Important Keyword",
       "scope": "keyword.other.important",
       "settings": {
-        "fontStyle": "bold"
+        "fontStyle": ""
       }
     },
 
@@ -533,7 +521,7 @@
         "fenced_code.block.language"
       ],
       "settings": {
-        "fontStyle": "bold",
+        "fontStyle": "",
         "foreground": "#4B83CD"
       }
     },
