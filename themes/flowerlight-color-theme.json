@@ -98,8 +98,8 @@
 
     // tab
     "titleBar.activeForeground": "#1b4f05",
-    "titleBar.activeBackground": "#c4efb2",
-    "titleBar.inactiveBackground": "#c4efb2",
+    "titleBar.activeBackground": "#c4f1b1",
+    "titleBar.inactiveBackground": "#c4f1b1",
     "icon.foreground": "#545454",
     "commandCenter.activeBackground": "#f5fcf1",
     "commandCenter.background": "#f5fcf1",
