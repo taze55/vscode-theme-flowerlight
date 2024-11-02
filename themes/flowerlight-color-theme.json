@@ -81,7 +81,7 @@
     "input.foreground": "#202022",
 
     // badge
-    "badge.background": "#77bc49",
+    "badge.background": "#86c959",
     "badge.foreground": "#fcfeff",
 
     // git
@@ -140,7 +140,7 @@
     "activityBar.background": "#592388",
     "activityBar.activeBorder": "#f5a9f7",
     "activityBar.inactiveForeground": "#ae7ed7",
-    "activityBarBadge.background": "#e586e7",
+    "activityBarBadge.background": "#eb8eed",
     "activityBarBadge.foreground": "#fefcff",
 
     // status bar
