@@ -93,7 +93,7 @@
     "gitDecoration.deletedResourceForeground": "#c33dc8",
     "gitDecoration.stageDeletedResourceForeground": "#c33dc8",
     "gitDecoration.ignoredResourceForeground": "#909092",
-    "gitDecoration.submoduleResourceForeground": "#ec6732",
+    "gitDecoration.submoduleResourceForeground": "#30b3d0",
     "gitDecoration.conflictingResourceForeground": "#f93e3e",
 
     // tab
