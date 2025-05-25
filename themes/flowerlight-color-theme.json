@@ -234,7 +234,7 @@
     "regexCharacterClass": "#4a89c5",
     "regexOtherEscape": "#4a89c5",
     "regexAnchor": "#4a89c5",
-    "regexQuantifier": "#b969cb",
+    "regexQuantifier": "#1887bb",
 
     // python
     "module:python": { "fontStyle": "", "foreground": "#3d67ca" },
@@ -369,7 +369,7 @@
         "punctuation.definition.entity"
       ],
       "settings": {
-        "foreground": "#b969cb"
+        "foreground": "#1887bb"
       }
     },
 
