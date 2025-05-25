@@ -247,14 +247,30 @@
     // General
     {
       "name": "Comments",
+      "scope": ["comment"],
+      "settings": {
+        "foreground": "#c36dbc"
+      }
+    },
+    {
+      "name": "DocStrings",
       "scope": [
-        "comment",
+        "string.quoted.docstring",
         "punctuation.definition.comment",
         "comment.documentation",
         "comment.block.documentation"
       ],
       "settings": {
+        "fontStyle": "italic",
         "foreground": "#c36dbc"
+      }
+    },
+    {
+      "name": "DocStrings(meta)",
+      "scope": ["string.quoted.double.cs"],
+      "settings": {
+        "fontStyle": "italic",
+        "foreground": "#7582cb"
       }
     },
     {
@@ -341,7 +357,7 @@
       "scope": ["meta.interpolation.cs", "meta.fstring.python"],
       "settings": {
         "fontStyle": "",
-        "foreground": "#b969cb"
+        "foreground": "#1887bb"
       }
     },
     {
