@@ -223,18 +223,20 @@
     "bookmarks.overviewRuler": "#98d87080"
   },
 
+  // textmateの定義と重複した場合にfontStyleだけそれになる可能性があるので
+  // semanticTokenColorsのfontStyleはすべてに必ず指定する
   "semanticTokenColors": {
     // General
     "enumMember": { "fontStyle": "", "foreground": "#202022" },
     "namespace": { "fontStyle": "italic", "foreground": "#303032" },
 
     // Regex
-    "regexGrouping": "#a0a0a2",
-    "regexAlternation": "#a0a0a2",
-    "regexCharacterClass": "#4a89c5",
-    "regexOtherEscape": "#4a89c5",
-    "regexAnchor": "#4a89c5",
-    "regexQuantifier": "#1887bb",
+    "regexGrouping": { "fontStyle": "italic", "foreground": "#a0a0a2" },
+    "regexAlternation": { "fontStyle": "", "foreground": "#a0a0a2" },
+    "regexCharacterClass": { "fontStyle": "", "foreground": "#4a89c5" },
+    "regexOtherEscape": { "fontStyle": "", "foreground": "#4a89c5" },
+    "regexAnchor": { "fontStyle": "", "foreground": "#4a89c5" },
+    "regexQuantifier": { "fontStyle": "", "foreground": "#1887bb" },
 
     // python
     "module:python": { "fontStyle": "", "foreground": "#3d67ca" },
