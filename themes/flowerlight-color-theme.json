@@ -157,13 +157,13 @@
 
     // diff
     "diffEditor.insertedLineBackground": "#b6e2ed80",
-    "diffEditor.removedLineBackground": "#b6e2ed80",
     "diffEditor.insertedTextBackground": "#aec7f080",
-    "diffEditor.removedTextBackground": "#aec7f080",
+    "diffEditorGutter.insertedLineBackground": "#b6e2ed80",
+    "diffEditor.removedLineBackground": "#eec0f480",
+    "diffEditor.removedTextBackground": "#d9aef080",
+    "diffEditorGutter.removedLineBackground": "#eec0f480",
     "diffEditor.diagonalFill": "#a1c9e980",
     "diffEditor.border": "#e8e8f0",
-    "diffEditorGutter.removedLineBackground": "#b6e2ed80",
-    "diffEditorGutter.insertedLineBackground": "#b6e2ed80",
     "diffEditor.unchangedRegionBackground": "#f0f0f2",
     "diffEditor.unchangedRegionShadow": "#c0c0c2",
     "diffEditor.unchangedRegionForeground": "#202022",
