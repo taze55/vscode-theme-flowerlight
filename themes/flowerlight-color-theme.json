@@ -240,6 +240,8 @@
 
     // python
     "module:python": { "fontStyle": "", "foreground": "#3d67ca" },
+    "variable.typeHint:python": { "fontStyle": "", "foreground": "#3d67ca" },
+    "function.decorator:python": { "fontStyle": "", "foreground": "#3d67ca" },
 
     // Toml
     "tomlArrayKey": { "fontStyle": "", "foreground": "#202022" }
@@ -291,11 +293,7 @@
     },
     {
       "name": "Keywords Control",
-      "scope": [
-        "keyword.control.conditional",
-        "keyword.control.flow",
-        "keyword.control.exception"
-      ],
+      "scope": ["keyword.control.conditional", "keyword.control.flow", "keyword.control.exception"],
       "settings": {
         "foreground": "#0598c1"
       }
@@ -457,11 +455,7 @@
     // csharp
     {
       "name": "CSharp Directives",
-      "scope": [
-        "keyword.other.directive.using.cs",
-        "keyword.other.directive.static.cs",
-        "storage.type.namespace.cs"
-      ],
+      "scope": ["keyword.other.directive.using.cs", "keyword.other.directive.static.cs", "storage.type.namespace.cs"],
       "settings": {
         "fontStyle": "italic"
       }
@@ -508,10 +502,7 @@
     // Xaml
     {
       "name": "Xaml tag name",
-      "scope": [
-        "entity.name.tag.localname.xml",
-        "entity.name.tag.namespace.xml"
-      ],
+      "scope": ["entity.name.tag.localname.xml", "entity.name.tag.namespace.xml"],
       "settings": {
         "fontStyle": "",
         "foreground": "#202022"
@@ -546,10 +537,7 @@
     },
     {
       "name": "Markdown Link Title",
-      "scope": [
-        "string.other.link.title.markdown",
-        "string.other.link.description.markdown"
-      ],
+      "scope": ["string.other.link.title.markdown", "string.other.link.description.markdown"],
       "settings": {
         "fontStyle": "",
         "foreground": "#202022"
