@@ -258,12 +258,7 @@
     },
     {
       "name": "DocStrings",
-      "scope": [
-        "string.quoted.docstring",
-        "punctuation.definition.comment",
-        "comment.documentation",
-        "comment.block.documentation"
-      ],
+      "scope": ["string.quoted.docstring", "comment.documentation", "comment.block.documentation"],
       "settings": {
         "fontStyle": "italic",
         "foreground": "#c36dbc"
