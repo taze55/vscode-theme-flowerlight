@@ -137,11 +137,11 @@
     "tree.indentGuidesStroke": "#e8e8ea",
 
     // activity bar
-    "activityBar.foreground": "#eee8f4",
-    "activityBar.background": "#502895",
-    "activityBar.activeBorder": "#f5a9f7",
-    "activityBar.inactiveForeground": "#ae7ed7",
-    "activityBarBadge.background": "#eb8eed",
+    "activityBar.foreground": "#eae9f3",
+    "activityBar.background": "#4f44b1",
+    "activityBar.activeBorder": "#b7b0f0",
+    "activityBar.inactiveForeground": "#a8a1e9",
+    "activityBarBadge.background": "#eca1ed",
     "activityBarBadge.foreground": "#fefcff",
 
     // status bar
@@ -185,7 +185,7 @@
     // terminal
     "terminal.background": "#fafafc",
     "terminal.foreground": "#202022",
-    "terminalCursor.foreground": "#31cdd5",
+    "terminalCursor.foreground": "#f8c462",
     "terminalCursor.background": "#202022",
     "terminal.ansiBlack": "#202022",
     "terminal.ansiBrightBlack": "#808088",
