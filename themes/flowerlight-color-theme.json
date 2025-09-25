@@ -212,12 +212,12 @@
 
     // jumpy2
     "jumpy2.labelFontColor": "#fcfcfe",
-    "jumpy2.labelBackgroundColor": "#ec98ee",
+    "jumpy2.labelBackgroundColor": "#97c4ee",
     "jumpy2.labelBorderColor": "#00000000",
     "jumpy2.checkered_labelFontColor": "#fcfcfe",
-    "jumpy2.checkered_labelBackgroundColor": "#77d467",
+    "jumpy2.checkered_labelBackgroundColor": "#7dda6d",
     "jumpy2.checkered_labelBorderColor": "#00000000",
-    "jumpy2.beaconColor": "#000000ff",
+    "jumpy2.beaconColor": "#f8c46200",
 
     // bookmarks
     "bookmarks.overviewRuler": "#98d87080"
